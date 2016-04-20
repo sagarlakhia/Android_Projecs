@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fragments</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Fragment1">This is Fragment 1.</string>
+    <string name="Fragment2">This is Fragment 2.</string>
+    <string name="buttonText">Click to begin</string>
+
+</resources>
