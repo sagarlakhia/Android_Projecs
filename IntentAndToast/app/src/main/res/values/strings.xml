@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">IntentAndToast</string>
+    <string name="text1">This is First Activity</string>
+    <string name="text2">This is Second Activity</string>
+    <string name="name">Enter your name</string>
+    <string name="namehere">Name Here</string>
+
+</resources>
