@@ -1,6 +1,10 @@
 This set of projects contains the basics that I am learning towards Android.<br />
 
+<<<<<<< HEAD
 I'll make sure to give the references (if any) and credits to the person from who i learnt online/offline.<br />
+=======
+I'll make sure to give the references (if any) and credits to the person from whom i learnt online/offline.
+>>>>>>> f72afc04ab96809d8814f40bb102bfa044a3aa91
 
 Note: Not all projects are uploaded, I'll do it slowly as I'm busy with my other course work.<br />
 
