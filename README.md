@@ -13,3 +13,5 @@ SQLiteExample: An example which shows how to use SQLite database.<br />
 Broadcast: This is a simple example which shows how to broadcast an Intent.<br />
 StartedService: This is an application where I ran a started service in a separate thread so it does not block the main GUI thread.
 The application also shows an implementation about how to start and stop a service and also how to implement Broadcast Receiver.<br />
+MenuIcons: This application shows how to use different menu icons and their on click events. It also shows a Pop up options menu. <br />
+NavigationDrawer: This application is an example how to use a Navigation Drawer along with the Hamburger icon.

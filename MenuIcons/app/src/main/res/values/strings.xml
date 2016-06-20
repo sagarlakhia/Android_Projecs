@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Menu Icons</string>
+    <string name="action_settings">Search</string>
+    <string name="action_share">Share</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="floating_add">Add</string>
+    <string name="floating_edit">Edit</string>
+    <string name="floating_delete">Delete</string>
+
+    <string-array name="greetings">
+        <item>Hello</item>
+        <item>Hi</item>
+        <item>Welcome</item>
+        <item>Good Morning</item>
+        <item>Good Afternoon</item>
+        <item>Hey</item>
+
+    </string-array>
+</resources>
