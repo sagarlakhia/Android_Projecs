@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="activityinfo">Activity Info</string>
+    <string name="title_activity_view_albums">Albums</string>
+    <string name="title_activity_view_photos">Photos</string>
+    <string name ="close" >Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="title_activity_view_downloaded_photo">Downloaded photo</string>
+</resources>

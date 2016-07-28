@@ -97,14 +97,15 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         @Override
         protected void onProgressUpdate(Integer... values) {
             super.onProgressUpdate(values);
-            progressDialog.setProgress((values[0])/100);
-            if(values[0] != 10000) {
-                progressDialog.setMessage("Loading " + (values[0])/100 +"%" );
-            }
-            else
-            {
+            progressDialog.setProgress((values[0]) / 100);
+           // if(values[0] != 10000) {
+            //    progressDialog.setMessage("Loading " + (values[0])/100 +"%" );
+            //}
+           // else
+            //{
+            if(values[0] == 10000)
                 progressDialog.hide();
-            }
+            //}
         }
     }
 

@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MultiPaneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/upperScreen">
+        <ImageView
+            android:id="@+id/upperImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:background="#c0c0c0"/>
+    <RelativeLayout
+        android:layout_below="@+id/upperScreen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lowerScreen">
+
+        >
+
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:numColumns="auto_fit"
+            android:horizontalSpacing="0dp"
+            android:verticalSpacing="0dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:stretchMode="columnWidth"
+            android:id="@+id/gridMultiPhotoView"
+            android:columnWidth="120dp"
+            />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
