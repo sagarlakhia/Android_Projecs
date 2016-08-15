@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.demo_app2.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/welcome"
+        android:text="" />
+
+    <TextView
+       android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcome"
+        android:id="@+id/description"
+        android:text="There are two buttons. I have attached a link that throws a random image. Volley's Imageloader is implemented using Cache, So once loaded, it will display the same image but from cache.You can click on delete from cache to delete the saved image. So when you click on load image it will again get an image from server. The server provides a random image from the link each time. So once you clear the cache, it fetches another image. Link is : http://lorempixel.com/400/200/"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Load Image \nUsing Cache"
+        android:textAllCaps="false"
+        android:id="@+id/loadImgButton"
+
+        android:padding="10dp"
+        android:background="@drawable/buttonborder"
+        android:textColor="@color/white"
+        android:layout_marginTop="76dp"
+        android:layout_below="@+id/description" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Image \n from Cache"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:id="@+id/deleteButton"
+        android:background="@drawable/buttonborder"
+        android:textColor="@color/white"
+        android:layout_above="@+id/loadImage"
+        android:layout_alignRight="@+id/loadImage"
+        android:layout_alignEnd="@+id/loadImage" />
+
+
+    <com.android.volley.toolbox.NetworkImageView
+    android:layout_below="@id/loadImgButton"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:id="@+id/loadImage"
+    android:src="@drawable/ic_message"
+    android:layout_centerVertical="true"
+    android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

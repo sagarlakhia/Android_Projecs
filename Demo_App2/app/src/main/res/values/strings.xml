@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo App2</string>
+    <string name="log_out">Log Out</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+</resources>
