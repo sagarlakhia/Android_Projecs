@@ -1,0 +1,19 @@
+<resources>
+
+    <string name="app_name">NodeJS Server Test</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="email">Email</string>
+    <string name="profession">Profession</string>
+    <string name="submit_information">Submit</string>
+    <string name="show_all_users">View All Users</string>
+    <string name="invalid_name">Invalid Name</string>
+    <string name="invalid_age">Invalid Age</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_profession">Invalid Profession</string>
+    <string name="delete_message_confirmation">Do you want to delete this user?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="please_check_fields">Please check all input fields.</string>
+    <string name="update">Update</string>
+</resources>

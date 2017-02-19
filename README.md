@@ -16,4 +16,10 @@ The application also shows an implementation about how to start and stop a servi
 MenuIcons: This application shows how to use different menu icons and their on click events. It also shows a Pop up options menu. <br />
 NavigationDrawer: This application is an example how to use a Navigation Drawer along with the Hamburger icon.<br/>
 Demo_App1: A simple application that shows use of various different features like Recyclerviews,Cardview, Gridviews and many more. You can find the video <a href="https://youtu.be/yF3drgT6di0">here</a> <br/>
-Demo_App2: USed Firebase Authentication, Push notification service. Used CIrcularImageView, Glide Api and Volley to load an image with LruCache. You can find the video <a href="https://youtu.be/rFVatMz9i5E">here </a> <br/>
+Demo_App2: Used Firebase Authentication, Push notification service. Used CIrcularImageView, Glide Api and Volley to load an image with LruCache. You can find the video <a href="https://youtu.be/rFVatMz9i5E">here </a> <br/>
+Bound Service: A simple application which uses a bound service (using a Binder) and finds the factorial of a number user inputs <br/>
+UserInformation: This application strongly follows <b>MVP Design pattern</b>. I used Heroku to host my NodeJS Server and I 've used MongoDB to save my data on mLab. This application does the following <br/>
+1) Saves the user entered info from the app to database. <br/>
+2) Fetches all the saved users from the database to the app. <br/>
+3) Delete the selected user from the database and <br/>
+4) Update the user information and save it in the database. <br/>
